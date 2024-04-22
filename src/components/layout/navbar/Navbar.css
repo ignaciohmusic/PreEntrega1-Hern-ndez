@@ -1,45 +1,53 @@
-.navbar {
+header{
   background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 3px 3px #00000011;
+}
+
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  position: sticky;
-  padding: 15px 160px;
+  padding: 15px 160px 15px;
   font-weight: 700;
-  box-shadow: 0 3px 3px #00000011;
 }
+
 .logo {
   right: 10px;
   width: 5.5rem;
   display: flex;
   justify-content: flex-start;
 }
+
 ul {
   color: #000000;
   list-style-type: none;
   position: relative;
-  right: 25rem;
   display: flex;
   font-size: 1rem;
+  padding-right: 40rem;
   justify-content: center;
   flex-direction: row;
   gap: 2rem;
 
 }
-ul li a {
+ul a {
   text-decoration: none;
   letter-spacing: .1em;
   color: #000000;
   position: relative;
 }
 
-ul li a:hover {
+ul a:hover {
   color: #006241;
 }
 
-ul li a::before, 
-ul li a::after {
+ul a::before, 
+ul a::after {
   content: '';
   border-bottom: 5px solid #006241 ;
   position: absolute;
@@ -50,7 +58,7 @@ ul li a::after {
   opacity: 0;
 }
 
-ul li a:hover::after{
+ul a:hover::after{
   opacity: 1;
 
 }
@@ -60,10 +68,8 @@ ul li a:hover::after{
   justify-content: center;
   gap: 0.5rem;
   font-size: 1rem;
-}
-
-.search-cart a {
   text-decoration: none;
   color: #000000;
 }
+
 

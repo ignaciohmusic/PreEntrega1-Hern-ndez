@@ -1,0 +1,7 @@
+.carrito-vacio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem ;
+    padding-bottom: 35rem;
+}

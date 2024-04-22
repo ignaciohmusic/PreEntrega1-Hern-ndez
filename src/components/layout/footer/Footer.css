@@ -1,0 +1,79 @@
+.footer {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    font-weight: 300;
+    color: #4A4A4A;;
+
+}
+.container-footer{
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.lista-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto li {
+    list-style-type: none;
+    margin-bottom: .25rem;
+}
+.redes{
+    margin-top: .5rem;
+}
+.atencion-cliente{
+    display: flex;
+    flex-direction: column;
+}
+.atencion-cliente p strong{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #4A4A4A;
+    
+}
+
+p strong{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000000;
+}
+.letter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.input-mail-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.button{
+    display: flex;
+    padding: 0px 12px;
+    margin-top: 1.5rem ;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 7rem;
+    margin-left: 20.5rem;
+}
+.copyright p {
+    font-size: 12px;
+    color: #333;
+}

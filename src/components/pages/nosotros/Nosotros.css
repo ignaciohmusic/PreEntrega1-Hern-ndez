@@ -1,0 +1,82 @@
+.div-img {
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+}
+  
+.div-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    
+}
+
+.img-title {
+    position: absolute;
+    top: 29.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.img-title h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+.img-title h3 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.coffe-content {
+    padding: 50px 0;
+}
+
+.coffe-content h2 {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 .5em;
+    line-height: 1.4;
+}
+
+.coffe-content p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.nuestro-cafe {
+    margin-bottom: 30px;
+}
+
+.nuestro-tostado {
+    margin-bottom: 30px;
+}
+
+.tipos-cafe img {
+    width: 35%;
+    margin-left: 38.8rem ;
+    padding: 1rem;
+
+}
+
+.button-nosotros {
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+  
+
+
+  

@@ -17,7 +17,7 @@ export const Navbar = () => {
             <Link to="/">INICIO</Link >
             <Link to="category/cafe">CAFÉ</Link >
             <Link to="/category/te">TÉ GOURMET</Link >
-            <Link to="">NOSOTROS</Link >
+            <Link to="/nosotros">NOSOTROS</Link >
             <Link to="">CLIENTES</Link >
           </ul>
           <div className="search-cart">

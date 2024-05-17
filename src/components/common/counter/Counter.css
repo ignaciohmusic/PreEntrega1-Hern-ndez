@@ -1,0 +1,20 @@
+.div-container{
+    padding-top: 13rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+.div-addRemove{
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+.button-carrito{
+    display: flex;
+
+
+}
+.button-black {
+    color: black;
+  }

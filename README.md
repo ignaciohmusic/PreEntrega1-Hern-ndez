@@ -1,8 +1,7 @@
-# React + Vite
+# Sequence Café
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![](https://res.cloudinary.com/djrrc5dpd/image/upload/v1715959217/Logo_Sequence_khccsi.png)
 
-Currently, two official plugins are available:
+Sequence Café es una marca dedicada a la venta de café y Té Gourmet
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características principales

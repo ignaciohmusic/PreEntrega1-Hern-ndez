@@ -14,11 +14,9 @@ const ItemList = ({ items }) => {
             <button><Link to="/category/cafe">DESCÚBRELOS</Link></button>
           </div>
           <div className="img-container">
-            <img src="https://res.cloudinary.com/djrrc5dpd/image/upload/v1713212135/header04_1_igbmlk.jpg" alt="" />
+            <img src="https://res.cloudinary.com/djrrc5dpd/image/upload/v1715798625/freshly-roasted-dark-coffee-bean-selective-focus-generative-ai_lgridj.jpg" alt="" />
           </div>
         </div>
-        
-        
       </Grid>
       <Grid container  spacing={2} justifyContent="center">
         {items.map(({id, title, price, img}) => {

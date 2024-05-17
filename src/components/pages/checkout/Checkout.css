@@ -1,0 +1,77 @@
+.div-container-chekout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    background: #f2f2f2;
+    padding: 100px;
+}
+
+.div-container-chekout form{
+    width: 700px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+form .row{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.row .column {
+    flex: 1 1 250px;
+}
+
+.column .title{
+    font-size: 1.3rem;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.column .input-box{
+    margin: 15px 0;
+}
+
+.input-box span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;   
+}
+
+.column .div-flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.div-flex .input-box {
+    margin-top: 5px;
+}
+
+.div-flex .input-box {
+    margin-top: 5px;
+
+}
+
+.input-box img {
+    padding-bottom: 9px;
+}
+
+.volver-inicio {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.h1-id{
+    padding: 5rem;
+}

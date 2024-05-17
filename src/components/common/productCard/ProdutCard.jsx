@@ -11,6 +11,7 @@ import "./ProductCard.css";
 import { Link } from "react-router-dom";
 
 const ProdutCard = ({ title, price, img, id}) => {
+
   return (
     <>
       <Card sx={{ maxWidth: 500, margin: "55px", boxShadow:"none", borderRadius:"1.5rem"}}>
@@ -52,6 +53,7 @@ const ProdutCard = ({ title, price, img, id}) => {
               sx={{
                 fontFamily: "Bricolage Grotesque, sans-serif",
                 fontSize: "15px",
+                color: "black",
               }}
             >
               AÑADIR AL CARRITO

@@ -17,9 +17,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: rgb(255, 254, 254);
+    color: #ffffff;
     z-index: 1;
-
   }
 
   .img-content h1 {
@@ -42,4 +41,9 @@
   
   .img-content button:hover {
     background-color: #bb493d;
+  }
+
+  .skeleton {
+    display: flex;
+    justify-content: center;
   }

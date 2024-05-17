@@ -1,17 +1,5 @@
 export const products = [
   {
-    id: 1,
-    title: "Café en Grano Clásico",
-    price: 5500,
-    stock: 50,
-    description:
-      "Un café dulce y fácil de combinar, con un cuerpo e intensidad altos y tueste medio",
-    category: "cafe",
-    type:"Grano",
-    img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158229/Cafe_en_Grano_Clasico_qnubk6.webp",
-  },
-  {
-    id: 2,
     title: "Café Molido Para Cafetera Italiana",
     price: 5500,
     stock: 50,
@@ -22,7 +10,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158230/Cafe_Molido_Clasico_Italiano_qnh3nk.png",
   },
   {
-    id: 3,
     title: "Café Molido Para Espresso",
     price: 5500,
     stock: 50,
@@ -33,7 +20,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158230/Cafe_Molido_Esprosso_bcg5lq.webp",
   },
   {
-    id: 4,
     title: "Café Molido Ecolólogico Descafeinado",
     price: 6000,
     stock: 40,
@@ -44,7 +30,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158230/Cafe_Molido_Descafeinado_Ecologico_nmwbah.webp",
   },
   {
-    id: 5,
     title: "Café en Grano Ecolólogico",
     price: 6000,
     stock: 40,
@@ -55,7 +40,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158229/Cafe_en_Grano_Ecologico_zaze02.webp",
   },
   {
-    id: 6,
     title: "Café en Grano con Aroma a Limon - Etiopia Guji",
     price: 11000,
     stock: 30,
@@ -66,7 +50,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158229/Cafe_en_Grano_de_Coleccion_cqzswj.webp",
   },
   {
-    id: 7,
     title: "Café en Grano con Aroma a Chocolate - Java Jampit",
     price: 9500,
     stock: 30,
@@ -77,7 +60,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158229/Cafe_en_Grano_de_Coleccion_lffo4v.webp",
   },
   {
-    id: 8,
     title: "Café en Capsulas con Aroma a Limon Fresco - Etiopia Guji",
     price: 6500,
     stock: 30,
@@ -88,7 +70,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158229/Cafe_en_Capsulas_de_Limon_Fresco_y00tkl.webp",
   },
   {
-    id: 9,
     title: "Café en Capsulas con Aroma a Chocolate - Java Jampit",
     price: 6000,
     stock: 30,
@@ -99,7 +80,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158228/Cafe_en_Capsulas_de_Chocolate_ujjynm.webp",
   },
   {
-    id: 10,
     title: "Café en Grano Mexique",
     price: 5500,
     stock: 60,
@@ -109,7 +89,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158230/Cafe_Molido_Mexique_lluc8l.jpg",
   },
   {
-    id: 11,
     title: "Café en Capsulas Espresso ",
     price: 4100,
     stock: 60,
@@ -120,7 +99,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158229/Cafe_en_Capsulas_Espresso_o7p4ey.jpg",
   },
   {
-    id: 12,
     title: "Café en Capsulas Lungo ",
     price: 4100,
     stock: 60,
@@ -131,7 +109,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158229/Cafe_en_Capsulas_Lungo_lqimpc.webp",
   },
   {
-    id: 13,
     title: "Café en Capsulas Descafeinado",
     price: 4100,
     stock: 60,
@@ -142,7 +119,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712158228/Cafe_en_Capsulas_Descafeinado_fqsx8t.webp",
   },
   {
-    id: 14,
     title: "Té Verde con Arandano y Rosa",
     price: 7700,
     stock: 60,
@@ -153,7 +129,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712157192/Te_Green_Rose_Revolution_keppqn.webp",
   },
   {
-    id: 15,
     title: "Té Negro Chai con Jengibre",
     price: 7700,
     stock: 60,
@@ -163,7 +138,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712157191/Te_Black_Ginger_and_Vainilla_Revolution_bwtiow.webp",
   },
   {
-    id: 16,
     title: "Té Verde Ecológico Sencha",
     price: 7700,
     stock: 60,
@@ -174,7 +148,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712157191/Te_Green_Tokyo_Sencha_Revolution_vbm4pw.webp",
   },
   {
-    id: 17,
     title: "Té Negro Earl Grey con Lavanda",
     price: 7700,
     stock: 60,
@@ -185,7 +158,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712157191/Te_Black_Revolution_iwa84l.webp",
   },
   {
-    id: 18,
     title: "Té Blanco con Granada y Cártamo",
     price: 7700,
     stock: 60,
@@ -196,7 +168,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712157191/Te_White_Revolution_a30zg2.webp",
   },
   {
-    id: 19,
     title: "Té Negro Ingles",
     price: 7700,
     stock: 60,
@@ -207,7 +178,6 @@ export const products = [
     img: "https://res.cloudinary.com/djrrc5dpd/image/upload/v1712157191/Te_Black_British_Revolution_hkqrlu.webp",
   },
   {
-    id: 20,
     title: "Té Negro PU-ERH ",
     price: 7700,
     stock: 60,

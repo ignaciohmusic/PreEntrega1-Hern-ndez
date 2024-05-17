@@ -45,7 +45,7 @@ const ProdutCard = ({ title, price, img, id}) => {
             </CardContent>
           </CardActionArea>
         </Link>
-        <CardActions sx={{ justifyContent: "center" }}>
+        {/* <CardActions sx={{ justifyContent: "center" }}>
           <Link to="">
             <Button
               size="small"
@@ -59,7 +59,7 @@ const ProdutCard = ({ title, price, img, id}) => {
               AÑADIR AL CARRITO
             </Button>
           </Link>
-        </CardActions>
+        </CardActions> */}
       </Card>
     </>
   );

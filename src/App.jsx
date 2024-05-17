@@ -1,8 +1,8 @@
 import { Layout } from "./components/layout/Layout.jsx";
-import CartContainer from './components/pages/cart/CartContainer.jsx';
+import CartContainer from "./components/pages/cart/CartContainer.jsx";
 import ItemDetailsContainer from "./components/pages/itemDetail/ItemDetailsContainer.jsx";
 import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer.jsx";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CartContextProvider from "./context/CartContext.jsx";
 import Checkout from "./components/pages/checkout/Checkout.jsx";
 import { Nosotros } from "./components/pages/nosotros/Nosotros.jsx";

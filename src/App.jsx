@@ -20,6 +20,7 @@ function App() {
               <Route path="/checkout" element={<Checkout />}/>
               <Route path="/cart" element={<CartContainer />} />
 
+              {/* <Route path="/cart" element={<CartContainer />} /> */}
               <Route path="/nosotros" element={<Nosotros />}/>
 
               <Route path="*" element={<h1>ERROR</h1>}/>

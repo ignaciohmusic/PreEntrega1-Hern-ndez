@@ -40,7 +40,7 @@ const Checkout = () => {
     let ordersCollection = collection(db, "orders");
     addDoc(ordersCollection, obj)
       .then((res) => setOrderId(res.id))
-      .catch((error) => console.log(error));
+      .catch((error) =>  Error);
 
     cart.forEach((product) => {
       let refDoc = doc(db, "products", product.id);
